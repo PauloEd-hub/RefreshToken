@@ -1,6 +1,5 @@
 package com.paulocavalcante.refreshtoken.controllers;
 
-import com.paulocavalcante.refreshtoken.dtos.TokenResponseDTO;
 import com.paulocavalcante.refreshtoken.dtos.UserRegisterDTO;
 import com.paulocavalcante.refreshtoken.dtos.generic.GenericResponse;
 import com.paulocavalcante.refreshtoken.services.UserService;
@@ -17,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     private final UserService userService;
-
-
 
     @PostMapping("/register")
     public ResponseEntity<GenericResponse> register(@RequestBody UserRegisterDTO userRegisterDTO) {

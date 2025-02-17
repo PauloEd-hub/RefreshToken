@@ -1,6 +1,5 @@
 package com.paulocavalcante.refreshtoken.services;
 
-import com.paulocavalcante.refreshtoken.dtos.TokenResponseDTO;
 import com.paulocavalcante.refreshtoken.dtos.UserRegisterDTO;
 import com.paulocavalcante.refreshtoken.entities.User;
 import com.paulocavalcante.refreshtoken.repositories.UserRepository;

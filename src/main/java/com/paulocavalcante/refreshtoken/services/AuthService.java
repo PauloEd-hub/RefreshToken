@@ -1,7 +1,6 @@
 package com.paulocavalcante.refreshtoken.services;
 
 import com.paulocavalcante.refreshtoken.config.service.JwtService;
-import com.paulocavalcante.refreshtoken.config.user.UserDetailsImpl;
 import com.paulocavalcante.refreshtoken.dtos.AuthDTO;
 import com.paulocavalcante.refreshtoken.dtos.RefreshRequestDTO;
 import com.paulocavalcante.refreshtoken.dtos.TokenResponseDTO;
